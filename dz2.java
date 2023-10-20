@@ -21,8 +21,7 @@ public class dz2 {
         long a =num+number;
         long b=num-number;
         long c=num*number;
-        double number1 = number;
-        double d=num/number1;
+        double d=(double)num/number;
         scanner.nextLine();
 
         System.out.printf("Результат сложения: %d\nРезультат вычетания: %d\nРезультат умножения: %d\nРезультат деления %.10f\n" , a, b, c, d);
